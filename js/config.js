@@ -1,10 +1,11 @@
+
 window._config = {
     cognito: {
-        userPoolId: process.env.USER_POOL_ID,
-        userPoolClientId: process.env.USER_POOL_CLIENT_ID,
-        region: process.env.REGION,
+        userPoolId: 'us-east-2_KwzMosy9k',
+        userPoolClientId: 's61qh899klt24fo1hulpht72n',
+        region: 'us-east-2',
     },
     api: {
-        invokeUrl: process.env.API_INVOKE_URL,
+        invokeUrl: '',
     }
 };
